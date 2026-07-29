@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+:root {
+  --purple-dark: #4a1a6b;
+  --purple-mid: #6b2e9a;
+  --purple-light: #8b44b8;
+  --green: #5cb85c;
+  --orange: #f5a623;
+  --white: #ffffff;
+  --light-bg: #f5eff9;
+  --card-bg: #ffffff;
+  --note-bg: #fff8ec;
+  --text-gray: #333333;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, Helvetica, Arial, sans-serif;
+  background: #eef0f4;
+  color: #1f1a24;
+}
